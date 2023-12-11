@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EquipmentStorage</class>
+ <widget class="QDialog" name="EquipmentStorage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>856</width>
+    <height>499</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>10</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 16pt &quot;Microsoft YaHei UI&quot;;
+background:rgba(85,170,225,0);
+	font-style: italic bold;
+	font size:14px;</string>
+   </property>
+   <property name="text">
+    <string>装备入库管理</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_return">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>10</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#00FFFF;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_XML">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>350</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#00FFFF;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="text">
+    <string>XML</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_EXCEL">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>350</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#00FFFF;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="text">
+    <string>EXCEL</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_increment">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>350</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#00FFFF;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="text">
+    <string>添加</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_look">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>350</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#00FFFF;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="text">
+    <string>查看</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_del">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>350</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#00FFFF;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="text">
+    <string>删除</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_id">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #000000;
+background-color: rgb(255, 255, 255);
+	font-size:18px;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>装备编号</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_time">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>200</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #000000;
+background-color: rgb(255, 255, 255);
+	font-size:18px;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>入库时间</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_types">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>90</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #000000;
+background-color: rgb(255, 255, 255);
+	font-size:18px;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>装备类型</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_number">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #000000;
+background-color: rgb(255, 255, 255);
+	font-size:18px;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>入库数量</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_personnel">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>190</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #000000;
+background-color: rgb(255, 255, 255);
+	font-size:18px;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>入库人员</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_source">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>140</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #000000;
+background-color: rgb(255, 255, 255);
+	font-size:18px;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>装备来源</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_valid">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>260</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #000000;
+background-color: rgb(255, 255, 255);
+	font-size:18px;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>有效期限</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_modify">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>260</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#00FFFF;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="text">
+    <string>更改</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

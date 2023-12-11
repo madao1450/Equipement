@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/new">
+        <file>image/sky.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>equipmentAlarms</class>
+ <widget class="QDialog" name="equipmentAlarms">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>897</width>
+    <height>502</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(211,211,211);
+background-position: center center;</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit_indetify">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>60</y>
+     <width>211</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #000000;
+background-color: rgb(255, 255, 255);
+	font-size:18px;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>天数</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_call">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>100</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#00FFFF;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="text">
+    <string>预警</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>0</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 16pt &quot;Microsoft YaHei UI&quot;;
+background:rgba(85,170,225,0);
+	font-style: italic bold;
+	font size:14px;</string>
+   </property>
+   <property name="text">
+    <string>报警页面</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>160</y>
+     <width>801</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 170, 127);</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>编号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>类型</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>数量</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>归还</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>出库日期</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>归还日期</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>原因</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>出库天数</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="btn_return">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>20</y>
+     <width>80</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#00FFFF;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

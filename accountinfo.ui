@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>accountInfo</class>
+ <widget class="QDialog" name="accountInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1074</width>
+    <height>605</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(192, 192, 192);</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>901</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 170, 127);</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>账号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>密码</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>名字</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>年龄</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>出生日期</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>地址</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>电话</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>你最喜欢的水果</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="btn_return">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>20</y>
+     <width>100</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#00FFFF;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>20</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 16pt &quot;Microsoft YaHei UI&quot;;
+background:rgba(85,170,225,0);
+	font-style: italic bold;
+	font size:14px;</string>
+   </property>
+   <property name="text">
+    <string>用户信息页面</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

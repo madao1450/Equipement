@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>equipmentInfo</class>
+ <widget class="QDialog" name="equipmentInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1203</width>
+    <height>641</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(211,211,211);
+background-position: center center;</string>
+  </property>
+  <widget class="QPushButton" name="btn_return">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>20</y>
+     <width>80</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#00FFFF;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>80</y>
+     <width>1011</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 170, 127);</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>装备ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>装备名称</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>类型</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>品质</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>等级</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>攻击力</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>攻击速度</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>附加属性</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>其他信息</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>30</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 16pt &quot;Microsoft YaHei UI&quot;;
+background:rgba(85,170,225,0);
+	font-style: italic bold;
+	font size:14px;</string>
+   </property>
+   <property name="text">
+    <string>装备信息</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

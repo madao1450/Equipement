@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <record>
+        <id>1</id>
+        <name>祖父</name>
+        <classify>双手剑</classify>
+        <quality>暗金</quality>
+        <class>82</class>
+        <ATK>1,369 – 2,053</ATK>
+        <speed>1.00</speed>
+        <additiveAttribute>你的暴击伤害提高 x[60 – 100]%。该武器上的其它属性可以随出比平常更高的数值。</additiveAttribute>
+        <otherInfomation>力量不动如山，传承延绵万代。</otherInfomation>
+    </record>
+    <record>
+        <id>2</id>
+        <name>阿瓦里昂，莱姗德之矛</name>
+        <classify>杖</classify>
+        <quality>暗金</quality>
+        <class>80</class>
+        <ATK>1,369 – 2,053</ATK>
+        <speed>1.00</speed>
+        <additiveAttribute>在消灭一名精英敌人后获得一个随机圣坛效果, 持续 [10 – 20] 秒。每 30 秒只能生效一次。</additiveAttribute>
+        <otherInfomation>“天使莱姗德在这把长矛中为我们留下了她的一部分力量。这足以证明她仍在守护着我们。” - 神谕者阿尔戈斯尼</otherInfomation>
+    </record>
+</data>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>administratorInterface</class>
+ <widget class="QDialog" name="administratorInterface">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>549</width>
+    <height>370</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>管理界面</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(211,211,211);
+background-position: center center;</string>
+  </property>
+  <widget class="QPushButton" name="btn_return">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>40</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#00FFFF;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>30</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 16pt &quot;Microsoft YaHei UI&quot;;
+background:rgba(85,170,225,0);
+	font-style: italic bold;
+	font size:14px;</string>
+   </property>
+   <property name="text">
+    <string>管理端</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_UserManagement">
+   <property name="geometry">
+    <rect>
+     <x>129</x>
+     <y>90</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#00FFFF;
+	border-style:outset;
+	border-radius:10px;
+</string>
+   </property>
+   <property name="text">
+    <string>用户信息</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_EquipmentStorage">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>150</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#00FFFF;
+	border-style:outset;
+	border-radius:10px;
+</string>
+   </property>
+   <property name="text">
+    <string>装备入库管理</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_query">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>220</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#00FFFF;
+	border-style:outset;
+	border-radius:10px;
+</string>
+   </property>
+   <property name="text">
+    <string>统计查询</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_equipmentInfo">
+   <property name="geometry">
+    <rect>
+     <x>259</x>
+     <y>90</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#00FFFF;
+	border-style:outset;
+	border-radius:10px;
+</string>
+   </property>
+   <property name="text">
+    <string>装备信息</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_EquipmentOutbound">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>220</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#00FFFF;
+	border-style:outset;
+	border-radius:10px;
+</string>
+   </property>
+   <property name="text">
+    <string>装备出库管理</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_callmange">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>150</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#00FFFF;
+	border-style:outset;
+	border-radius:10px;
+</string>
+   </property>
+   <property name="text">
+    <string>报警管理</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_picturebrowsing">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>280</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#00FFFF;
+	border-style:outset;
+	border-radius:10px;
+</string>
+   </property>
+   <property name="text">
+    <string>装备图片浏览</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_import">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>280</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#00FFFF;
+	border-style:outset;
+	border-radius:10px;
+</string>
+   </property>
+   <property name="text">
+    <string>导入</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

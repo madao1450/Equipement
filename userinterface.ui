@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>userInterface</class>
+ <widget class="QDialog" name="userInterface">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>882</width>
+    <height>445</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="btn_modify">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>360</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#00FFFF;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="text">
+    <string>修改</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_return">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>20</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#00FFFF;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>10</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 16pt &quot;Microsoft YaHei UI&quot;;
+background:rgba(85,170,225,0);
+	font-style: italic bold;
+	font size:14px;</string>
+   </property>
+   <property name="text">
+    <string>客户端</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_look">
+   <property name="geometry">
+    <rect>
+     <x>359</x>
+     <y>103</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#00FFFF;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="text">
+    <string>查看</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_del">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>350</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#00FFFF;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="text">
+    <string>注销</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_account">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>70</y>
+     <width>181</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #000000;
+background-color: rgb(255, 255, 255);
+	font-size:18px;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>账号</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_password">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>160</y>
+     <width>181</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #000000;
+background-color: rgb(255, 255, 255);
+	font-size:18px;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>密码</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_name">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>160</y>
+     <width>181</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #000000;
+background-color: rgb(255, 255, 255);
+	font-size:18px;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>名字</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_age">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>210</y>
+     <width>181</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #000000;
+background-color: rgb(255, 255, 255);
+	font-size:18px;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>年龄</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_birth">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>210</y>
+     <width>181</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #000000;
+background-color: rgb(255, 255, 255);
+	font-size:18px;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>出生年月</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_telphone">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>260</y>
+     <width>181</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #000000;
+background-color: rgb(255, 255, 255);
+	font-size:18px;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>家庭电话</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_address">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>260</y>
+     <width>181</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #000000;
+background-color: rgb(255, 255, 255);
+	font-size:18px;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>地址</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_question">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>310</y>
+     <width>181</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #000000;
+background-color: rgb(255, 255, 255);
+	font-size:18px;
+	border-style:outset;
+	border-radius:10px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>你最喜欢的水果</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
